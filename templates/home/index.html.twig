@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Social Authentication{% endblock %}
+
+{% block body %}
+<style>
+  
+</style>
+
+<div class="example-wrapper">
+    <a href="{{path('github_login')}}" class="btn btn-dark">Login con GitHub</a>
+</div>
+
+<div class="example-wrapper">
+    <a href="{{path('google_login')}}" class="btn btn-danger">Login con Google</a>
+</div>
+{% endblock %}
